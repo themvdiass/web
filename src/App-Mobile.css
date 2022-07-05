@@ -1,0 +1,78 @@
+@media screen and (max-width: 864px) {
+  .body-home-true {
+   flex-direction: column;
+   height: auto;
+  }
+  
+  .body-home-false {
+  flex-direction: column;
+  height: auto;
+  }
+
+  .id {
+    font-size: 15px;
+  }
+
+  .hd button {
+    font-size: 15px;
+  }
+
+  .box-img-true {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .box-img-true {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .call {
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    width: 80%;
+  }
+
+  .second {
+    margin-bottom: 0;
+  }
+
+  .wlcm {
+    font-size: 13px;
+  }
+
+  .principal {
+    width: 100%;
+  }
+
+  .apresentation-true {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .apresentation-true h1 {
+    font-size: 30px;
+  }
+
+  .apresentation-false {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .apresentation-false h1 {
+    font-size: 30px;
+  }
+
+  .explore {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  }
+}

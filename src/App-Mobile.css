@@ -1,7 +1,7 @@
 @media screen and (max-width: 864px) {
   body {
     background-color: white;
-    height: 100vh;
+    height: 100%;
   }
 
   .body-home-true, .body-home-false {

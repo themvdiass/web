@@ -1,4 +1,9 @@
 @media screen and (max-width: 864px) {
+  body {
+    background-color: white;
+    height: 100vh;
+  }
+
   .body-home-true, .body-home-false {
     flex-direction: column;
     height: auto;

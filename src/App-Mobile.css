@@ -1,12 +1,14 @@
 @media screen and (max-width: 864px) {
   .body-home-true {
-   flex-direction: column;
-   height: auto;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
   }
-  
+
   .body-home-false {
-  flex-direction: column;
-  height: auto;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
   }
 
   .id {
@@ -18,11 +20,15 @@
   }
 
   .box-img-true {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     height: 80vh;
     width: 100%;
   }
 
-  .box-img-true {
+  .box-img-false {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     height: 80vh;
     width: 100%;
   }

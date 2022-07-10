@@ -191,9 +191,14 @@
     text-decoration: none;
   }
 
+  .case {
+    text-transform: uppercase;
+  }
+
   .principal-true, .principal-false {
     align-items: center;
     flex-direction: column-reverse;
+    justify-content: center;
     margin-top: 50px;
     text-align: center;
   }
@@ -205,6 +210,7 @@
 
   .learn-true, .learn-false {
     width: 90%;
+    padding-top: 30px;
   }
 
   .learn-true p, .learn-false p {
@@ -212,12 +218,16 @@
   }
 
   .images {
-    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
   }
 
   .box-img {
     height: 200px;
     width: 200px;
+    min-width: 200px;
+    min-height: 200px;
   }
 
   .image-1{

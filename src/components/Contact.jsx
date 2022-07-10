@@ -22,7 +22,7 @@ class Contact extends React.Component {
         </section>
         <aside className={`manu-${day}`}>
             <i className="settings fa-solid fa-gears" />
-            <p>Em Manutenção</p>
+            <p>Working</p>
         </aside>
         <div className={`header-mobile-${day}`}>
           <label htmlFor="scroll" className="menu ri-menu-4-fill"/>

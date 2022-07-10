@@ -6,14 +6,8 @@ class Home extends React.Component {
     super();
 
     this.state = {
-      day: true,
       search: '',
     }
-  }
-
-  dayNight = () => {
-    const { day } = this.state;
-    this.setState({ day: !day })
   }
 
   onInputChange = ({ target }) => {
@@ -21,7 +15,8 @@ class Home extends React.Component {
   }
 
   render() {
-    const { day, search } = this.state;
+    const { search } = this.state;
+    const { day, dayNight } = this.props;
     const { onInputChange } = this
     return (
       <section className={`body-home-${day}`}>
@@ -29,7 +24,7 @@ class Home extends React.Component {
           <article className="content">
             <div className="hd">
               <h1 className="id">{'<mv.diass />'}</h1>
-              <button onClick={() => { this.dayNight() }}>
+              <button onClick={ dayNight }>
                 {day ? <i className="ri-moon-fill" /> : <i class="ri-sun-fill" />}</button>
             </div>
             <div className="second">
@@ -51,6 +46,7 @@ class Home extends React.Component {
           <section className="links">
             <Link className={`link-${day}`} to="about">About</Link>
             <Link className={`link-${day}`} to="projects">Projects</Link>
+            <Link className={`link-${day}`} to="contact">Contact</Link>
           </section>
           <section className="little">
             <p className="">Since I was very young I have always been fascinated by virtual worlds and at the beginning of 2022 I joined a web development school. I learned to love programming and became very good at it...</p>

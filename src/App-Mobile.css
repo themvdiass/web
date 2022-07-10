@@ -191,15 +191,12 @@
     text-decoration: none;
   }
 
-  .case {
-    /* text-transform: uppercase; */
-  }
 
   .principal-true, .principal-false {
     align-items: center;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
   }
 

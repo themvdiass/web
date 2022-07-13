@@ -76,10 +76,10 @@
   .header-mobile-true {
     align-items: center;
     background-color: white;
-    border-bottom: 1px solid rgb(215, 215, 215);
+    border-bottom: 1px solid rgb(240, 240, 240);
     display: flex;
     justify-content: space-between;
-    padding: 8px 15px;
+    padding: 14.5px 15px;
     position: fixed;
     width: 100%;
     transition: 1s;
@@ -90,11 +90,11 @@
   .header-mobile-false {
     align-items: center;
     background-color: rgb(42, 42, 42);
-    border-bottom: 1px solid rgb(108, 108, 108);
+    border-bottom: 1px solid rgb(62, 62, 62);
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 8px 15px;
+    padding: 14.5px 15px;
     transition: 1s;
     position: fixed;
     width: 100%;
@@ -109,24 +109,31 @@
 
   .header-mobile-true label, .header-mobile-false label {
     color: gray;
+    font-size: 20px;
   }
 
   .header-mobile-false button {
+    align-items: center;
     background-color: transparent;
     border: 0;
     color: gray;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     transition: 1s;
-    font-size: 15px;
+    font-size: 20px;
   }
   
   .header-mobile-true button {
+    align-items: center;
     background-color: transparent;
     border: 0;
     color: gray;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     transition: 1s;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .scroll:checked ~ .div-menu-true {
@@ -146,13 +153,13 @@
   .div-menu-true {
     align-items: center;
     background-color: white;
-    border-bottom: .5px solid rgb(219, 219, 219);
+    border-bottom: .5px solid rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
     font-family: Prompt, sans-serif;
     overflow: hidden;
     position: fixed;
-    top: 34px;
+    top: 49px;
     transform: translateY(-150px);
     transition: 1s;
     width: 100%;
@@ -162,13 +169,13 @@
   .div-menu-false {
     align-items: center;
     background-color: rgb(42, 42, 42);
-    border-bottom: .5px solid rgb(108, 108, 108);
+    border-bottom: .5px solid rgb(62, 62, 62);
     display: flex;
     flex-direction: column;
     font-family: Prompt, sans-serif;
     overflow: hidden;
     position: fixed;
-    top: 34px;
+    top: 49px;
     transform: translateY(-150px);
     transition: 1s;
     width: 100%;
